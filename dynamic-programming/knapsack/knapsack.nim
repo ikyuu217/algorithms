@@ -33,4 +33,5 @@ block main:
       if w - Wei[i] >= 0:
         K[w] = max(K[w], K[w-Wei[i]] + V[i])
   
+  # output
   K[W].echo
